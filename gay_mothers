@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int x;
-    cout << "Please type in a number. \nIf you type in the wrong number than your mother is gay." << endl;
+    cout << "Please type in a number between 1-10. \nIf you type in the wrong number than your mother is gay." << endl;
     cin >> x;
 
 
