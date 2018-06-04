@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int x;
+
+int main()
+{
+cout << "Please type in a number." << endl;
+cin >> x;
+return 0;
+
+
+if(5>x)
+{
+cout << "Your mom is gay!" 
+}
+
+if(5<x)
+{
+cout << "Your mom is not gay!" << endl;
+}
+}
