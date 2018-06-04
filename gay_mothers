@@ -1,22 +1,26 @@
 #include <iostream>
 using namespace std;
 
-int x;
-
 int main()
 {
-cout << "Please type in a number." << endl;
-cin >> x;
-return 0;
+    int x;
+    cout << "Please type in a number. \nIf you type in the wrong number than your mother is gay." << endl;
+    cin >> x;
 
 
-if(5>x)
+
+if(8>x)
 {
-cout << "Your mom is gay!" 
+    cout << "Too low! Your mother is gay!" << endl;
 }
 
-if(5<x)
+if(8<x)
 {
-cout << "Your mom is not gay!" << endl;
+    cout << "Wrong! Too high! Your mom is gay!" << endl;
+}
+
+if(8==x)
+{
+    cout<<"Correct! Your mother is half gay, or bisexual."<<endl;
 }
 }
